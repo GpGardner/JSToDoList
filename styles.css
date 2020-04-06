@@ -1,0 +1,36 @@
+body.body {
+    background-color: #ccc;
+    margin: 10% 20% 10% 20%;
+    
+}
+
+.todoList {
+    background-color: white;
+    border: 1px solid black;
+}
+
+#submitBtn,#todoInput {
+    margin: 2% 0 0 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Strikeout for my todo list items*/
+
+.strikeout {
+    text-decoration: line-through;
+}
