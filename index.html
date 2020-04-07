@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To-Do List</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body class=body>
-    
-    
-    
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body">
     <h1>Your to-do list</h1>
     <div class="todoList">
+      <input type="text" name="todo" id="todoInput" />
 
-    <input type="text" name="todo" id="todoInput">
+      <button id="submitBtn">Submit List Item</button>
 
-    <button id="submitBtn">Submit List Item</button>
-
-
-    <ul class="list">
+      <ul class="list">
         <li>Add more Css</li>
         <li>Animations</li>
         <li>Clean up JS</li>
         <li>Add multiple selector for strikeout/delete</li>
         <li>Implement a timer</li>
-        
-    </ul>
-
-    
-</div>
-
+      </ul>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
